@@ -1,9 +1,9 @@
 name: API CI - RealEstate
 on:
   push:
-    branches: [main]
+    branches: [inicio, main]
   pull_request:
-    branches: [main]
+    branches: [inicio, main]
 
 jobs:
   test:
