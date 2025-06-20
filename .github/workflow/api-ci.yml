@@ -1,9 +1,9 @@
 name: API CI - RealEstate
 on:
   push:
-    branches: [main, inicio]
+    branches: [inicio, main]
   pull_request:
-    branches: [main, inicio]
+    branches: [inicio, main]
 
 jobs:
   test:
@@ -32,7 +32,7 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Ejecutar pruebas con Jest
+      - name: Ejecutar pruebas con Jest 
         run: npm test
 
       - name: Reportar éxito
