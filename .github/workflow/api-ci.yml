@@ -32,7 +32,7 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Ejecutar pruebas con Jest
+      - name: Ejecutar pruebas con Jest 
         run: npm test
 
       - name: Reportar éxito
